@@ -1,0 +1,193 @@
+body{
+
+
+	
+	margin: 0px;
+
+    padding: 0px;
+}
+
+
+section{
+
+    height:80px;
+    width: 100%;
+
+    padding: 0px;
+    margin-top: 0px;
+    text-align: center;
+
+    background:url('images.jpg');
+
+    
+}
+
+.headi{
+
+    margin: 0px;
+
+    padding: 0px;
+
+    font-size: 40px;
+
+
+
+}
+
+.typewriter
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+    background-image: linear-gradient(-90deg, floralwhite, azure);
+}
+
+#dog-breeds {
+    padding: 10px;
+    font-size: 1.4rem;
+    width: 30%;
+    min-width: 200px;
+}
+
+
+#dog-breeds option {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+
+button {
+    width: 150px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+button:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+#flex {
+   display: flex;
+    margin-top: 50px;
+    height: 400px;
+}
+
+#breed-image {
+    width: 60%;
+    min-width: 300px;
+    overflow: hidden;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#breed-image img {
+    max-height: 400px;
+    max-width: 100%;
+    min-height: 300px;
+}
+
+#next {
+    width: 40%;    
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+	form {
+    display: inline-flex;
+   /* justify-content: space-around;*/
+ 
+    width: 100%;
+    padding: 20px 0;
+    background-image: linear-gradient(-90deg, floralwhite, azure);
+}
+
+.headi{
+
+    float: left;
+
+    margin-left: 15px;
+
+
+}
+
+.typewriter
+{
+    float: left;
+       margin-left: 10px;
+}
+
+
+button {
+    width: 150px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    margin-right: 20px;
+
+    border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+
+
+#dog-breeds {
+    padding: 10px;
+    font-size: 1.4rem;
+    width: 30%;
+    min-width: 150px;
+}
+
+  
+
+  #flex {
+ 
+    margin-top:10px;
+    height: 600x;
+
+    flex-wrap: wrap;
+}
+
+
+
+#breed-image {
+    width: 70%;
+    min-width:350px;
+    overflow: hidden;
+}
+
+
+#breed-image img {
+    max-height: 500px;
+    max-width: 100%;
+    min-height: 400px;
+}
+
+#next {
+    width: 50%;   
+
+    margin-left: 50px;
+}
+
+}
